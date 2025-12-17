@@ -1,0 +1,85 @@
+body {
+    display : flex;
+    justify-content : center;
+    flex-direction : column;
+    font-family : "Courier New", monospace;
+    color :white;
+    align-items : center;
+    min-height : 100vh;
+    background : url("backgrouund.avif");
+    background-size : cover;
+    background-position : center;
+    background-repeat : no-repeat;
+}
+.container {
+    display: flex;
+    flex-direction : column;
+    justify-content : center;
+    position : relative;
+    width : 300px;
+    height : 300px;
+}
+.time {
+    position : relative;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    gap : 20px;
+    width : 300px;
+    height : 100px;
+    background : rgba(219, 19, 162,0.2);
+    box-shadow : 0 0 20px black;
+    backdrop-filter : blur(10px);
+    font-size : 30px;
+    border-radius : 10px;
+    
+}
+.square {
+    position : absolute;
+    right : 240px;
+    bottom : 150px;
+    width : 90px;
+    height : 90px;
+    background-color : rgba(219, 19, 162,1);
+    border-radius : 10px;
+    box-shadow : 0 0 10px black;
+    filter : blur(0.50px);
+}
+
+.circle {
+
+    position : absolute;
+    left : 240px;
+    top : 130px;
+    width : 100px;
+    height : 100px;
+    background-color : rgb(27 142 205);
+    filter : blur(0.25px);
+    border-radius : 50%;
+    box-shadow : 0 0 20px #191616;
+}
+.h {
+    position :absolute;
+    top : 165px;
+    left: 30px;
+    font-size : 12px;
+    color : white;  
+}
+.container .m {
+    position :absolute;
+    top : 165px;
+    left: 120px;
+    font-size : 12px;
+    color : white;  
+}
+.s{
+    position :absolute;
+    top : 165px;
+    left: 205px;
+    font-size : 12px;
+    color : white;  
+}
+h2 {
+    color : white;
+}
+
